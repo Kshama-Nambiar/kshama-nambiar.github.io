@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Eudoxus Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.gradient-01 {
+  background-image: linear-gradient(
+    100deg,
+    rgb(52, 44, 170) 100%,
+    rgb(97, 94, 240) 26%,
+    rgb(124, 151, 240) 80%,
+    rgb(131, 198, 245) 50%,
+    rgb(38, 71, 112) 61%,
+    rgb(14, 37, 66) 74%,
+    rgb(17, 8, 190) 100%
+  );
+  filter: blur(180px);
+}
